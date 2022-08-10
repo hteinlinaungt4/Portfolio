@@ -1,0 +1,485 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	
+}
+.navbar.bg{
+		background-color:#DBCA9D;
+	}
+.btn{
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	display: none;
+	
+}
+.navbar{
+	position: sticky;
+	width: 100%;
+	top: 0px;
+	transition: 0.5s;
+	color: black;
+	
+
+}
+.nav-container{
+	max-width: 1500px;
+	
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	
+
+
+}
+.nav-items{
+	list-style-type: none;
+	display: flex;
+}
+.nav-logo{
+	padding: 10px;
+	
+}
+.nav-items>li{
+	
+	text-align:center;
+	padding:10px 20px;
+}
+.title{
+	text-align: center;
+	font-size: 40px;
+	color: #2B2842;
+	margin: 50px;
+}
+/*Header*/
+.header{
+	/*border:2px solid black;*/
+	padding: 25px;
+
+}
+.main{
+	/*background-color: #ff01a5;*/
+	background-color: #766D95;
+	color: #6051E5;
+
+	
+}
+
+
+.container{
+	border:7px solid white;
+	border-radius: 10px;
+	max-width: 1500px;
+	display: flex;
+	margin: auto;
+	text-align: center;
+	align-items: center;
+	background-color: #766D95;
+
+	
+
+}
+.header .container .content{
+	flex-basis: 60%;
+	color:white;
+	
+}
+.header .container .content > h4,h3,p{
+	margin: 10px;
+}
+.header .container .content > h4{
+	letter-spacing: 5px;
+}
+.header .container .content .icons{
+	color: white;
+	font-size: 30px;
+	margin: 30px;
+
+
+}
+.header .container .content .icons >a{
+	padding: 10px;
+}
+.header .container .content .icons >a:nth-child(1){
+	color: red;
+}
+.header .container .content .icons >a:nth-child(2){
+	color: white;
+}
+.header .container .content .icons >a:nth-child(3){
+	color: blue;
+}
+
+.header .container .photo{
+	flex-basis: 40%;
+	background-color: white;
+	
+	}
+.header .container .photo>img{
+	width: 100%;
+}
+
+
+/*About Me*/
+
+.aboutme-container{
+	
+	display: flex;
+	max-width: 1300px;
+	margin: auto;
+	align-items: center;
+}
+.aboutmeimg{
+	flex-basis: 30%;
+
+}
+.aboutmecontent{
+	flex-basis: 70%;
+}
+.aboutmeimg>img{
+	border: 3px solid black;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	text-align: center;
+	/*margin-top: 160px;*/
+	display: block;
+	
+	align-items: center;
+	
+	
+}
+.aboutmecontent>p,h2,h3{
+	margin: auto;
+	line-height: 35px;
+	
+	
+}
+.aboutmecontent>h2{
+	/*margin-top: 100px;*/
+	font-size: 30px;
+	color: #400080;
+	margin-bottom: 10px;
+
+}	
+.aboutmecontent>p{
+	font-size: 25px;
+	color: white;
+
+}	
+.aboutmecontent>h3{
+	font-size: 30px;
+	color: #339966;
+
+}	
+/*Skill*/
+.skills-container{
+	display: flex;
+	margin:auto;
+	max-width: 1500px;
+	
+
+
+}
+.list{
+	flex-basis: 50%;
+	align-self:center;
+	padding:20px;
+	
+
+}
+.skillphoto{
+	flex-basis: 50%;
+	padding: 80px;
+	
+}
+.skillphoto >img{
+	/*width: 500px;*/
+	width: 100%;
+	
+	display: block;
+	margin:auto;
+	align-items: center;
+	/*padding: 80px;*/
+	
+
+}
+.list>ul>li{
+	list-style-type: none;
+	display: inline-block;
+	background-color: rgb(240,248,255,0.7);
+	padding: 10px;
+	border-radius: 5px;
+	margin:2px 3px 2px 0;
+	font-weight: bold;
+
+}
+.list>ul{
+	margin:30px 0 50px 0;
+
+}
+.list>h1{
+	color: white;
+}
+/*contantme*/
+
+.contantme-container{
+	display: flex;
+	margin:auto;
+	max-width: 1500px;
+	
+}
+.contantme-container .address{
+	flex-basis: 50%;
+	margin: 10px;	
+	color: white;
+	
+}
+.contantme-container .address >a{
+	margin: 20px;
+	line-height: 50px;
+	font-size: 30px;
+
+}
+.contantme-container .form{
+	
+	flex-basis: 50%;
+}
+.contantme-container .form textarea{
+	width: 100%;
+	height: 60px;
+	margin-top: 8px;
+}
+.contantme-container .form .formgroup{
+	display: flex;
+	justify-content: space-between;
+}
+.contantme-container .form .formgroup >input{
+	flex-basis: 49%;
+	height: 40px;
+	border-radius: 5px;
+
+}
+.contantme-container .form .button{
+	background-color: blue;
+	width: 130px;
+	height: 40px;
+	float: right;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+
+
+
+/*myworks*/
+
+.myworkscontainer{
+	
+	display: flex;
+	margin:auto;
+	max-width: 1500px;
+	
+	justify-content: space-between;
+
+}
+.myworkscontainer .card{
+	
+	background-color: #48474E;
+	
+	flex-basis: 30%;
+	
+	text-align: center;
+	color: white;
+	/*height: 400px;*/
+	border-radius: 15px;
+	transition: scale 1s,background-color 1s;
+
+
+}
+.myworkscontainer .card:hover{
+	background-color: #766D95;
+	transform:scale(1.1);
+	cursor: pointer;
+}
+.myworkscontainer .card>h1{
+	margin: 20px 0px 60px 0;
+}
+.myworkscontainer .card>p{
+	font-size: 25px;
+}
+.myworkscontainer .card>a{
+	font-size: 40px;
+	color: white;
+}
+/*footer*/
+.footer{
+	background-color:#C7A649;
+
+	margin-top: 30px;
+}
+.footercontainer{
+	display: flex;
+	margin:auto;
+	max-width: 1500px;
+
+
+}
+.one{
+	
+	flex-basis: 33.33%;
+	font-size: 20px;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+}
+.two{
+	
+	flex-basis: 33.33%;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	line-height: 50px;
+}
+.two a{
+	color: white;
+	text-decoration: none;
+}
+.three{
+	
+	flex-basis: 33.33%;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+}
+.three>div{
+	margin-top: 50px;
+}
+.three .icons {
+	font-size: 45px;
+	padding: 20px;
+
+}
+
+.three .icons a:nth-child(1){
+	color: red;
+	padding:3px;
+}
+.three .icons a:nth-child(2){
+	color: white;
+	padding:3px;
+}
+.three .icons a:nth-child(3){
+	color: blue;
+	padding:3px;
+}
+
+.shadow{
+	box-shadow: -5px 6px 7px black;
+}
+
+@media(max-width: 700px){
+
+	
+	.btn{
+		display: block;
+	}
+	.nav-logo{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.nav-container{
+		flex-direction: column;
+	}
+	.nav-items{
+		flex-direction: column;
+		height: 0px;
+		overflow: hidden;
+		transition: height	0.5s;
+		
+		
+	}
+	.nav-items>li{
+		margin: 2px;
+		
+	}
+	.nav-items.show{
+		height: 250px;
+		
+	}
+
+
+	.main{
+		background-color: #766D95;
+	}
+	.container{
+		flex-direction: column;
+	}
+	.aboutme-container{
+		flex-direction: column;
+
+	}
+	.aboutme-container .aboutmecontent{
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.skills-container{
+		flex-direction: column;
+	}
+	.myworkscontainer{
+		flex-direction: column;
+		padding:50px;
+
+	}
+	.myworkscontainer .card{
+		margin:20px auto ;
+
+		/*margin: 20px;*/
+
+	}
+
+
+
+	.contantme-container{
+		flex-direction: column;
+
+	}
+	.contantme-container.form{
+		display: flex;
+
+	}
+	#form{
+		flex-direction: column;
+	}
+	#form>input{
+		margin: 2px 20px;
+		width: 600px;
+		line-height: 50px;
+
+
+	}
+	#area{
+		width: 600px;
+		margin-left: 20px;
+	}
+	#send{
+		margin-right: 7px;
+	}
+	.footercontainer{
+		flex-direction: column;
+
+	}
+	
+	
+	
+	
+	
+}
